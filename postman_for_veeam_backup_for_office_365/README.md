@@ -4,14 +4,14 @@
 
 ## Requirements
 
-* Veeam Backup for Office 365 v5
+* Veeam Backup for Office 365 v7
 * [Postman](https://www.getpostman.com/)
 
 ## Getting Started
 
 * Get the VBO OpenAPI specification
   * To get this, you'll have to navigate to a URL hosted on your VBO server
-    * `https://<vbo_server>:4443/swagger/docs/v5`
+    * `https://<vbo_server>:4443/swagger/docs/v7`
   * Save all the text in a file
 
 ![VBO OpenAPI specification](images/vbo_openapi_specification.png)
@@ -35,7 +35,7 @@
   * `vbo-username`: Username login
   * `vbo-password`: Password login
 
-* Open the newly imported collection and navigate to the `/v5/token` API call
+* Open the newly imported collection and navigate to the `/v7/token` API call
 * Click on the `Body` tab
 * Update fields as shown below:
 
